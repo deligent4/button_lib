@@ -27,7 +27,7 @@
  */
 typedef struct {
     GPIO_TypeDef* GPIO_Port; 		/**< GPIO port of the button. */
-uint16_t _pin; 						/**< Pin number of the button. */
+    uint16_t _pin; 					/**< Pin number of the button. */
     uint16_t _delay; 				/**< Debounce delay for the button. */
     GPIO_PinState _state; 			/**< Current state of the button. */
     uint8_t _has_changed; 			/**< Flag indicating if the button state has changed. */

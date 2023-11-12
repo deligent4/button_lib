@@ -89,9 +89,9 @@ int main(void)
   MX_GPIO_Init();
   /* USER CODE BEGIN 2 */
   // Initialize buttons
-  Button_Init(&swa, SWA_GPIO_Port, SWA_Pin);  // Example GPIO port and pin for SWA, debounce time: 50ms
-  Button_Init(&swb, SWB_GPIO_Port, SWB_Pin);  // Example GPIO port and pin for SWB, debounce time: 50ms
-  Button_Init(&swc, SWC_GPIO_Port, SWC_Pin);  // Example GPIO port and pin for SWC, debounce time: 50ms
+  Button_Init(&swa, SWA_GPIO_Port, SWA_Pin);  // Example GPIO port and pin for SWA
+  Button_Init(&swb, SWB_GPIO_Port, SWB_Pin);  // Example GPIO port and pin for SWB
+  Button_Init(&swc, SWC_GPIO_Port, SWC_Pin);  // Example GPIO port and pin for SWC
 
   /* USER CODE END 2 */
 
